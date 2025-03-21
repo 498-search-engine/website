@@ -6,12 +6,11 @@ Mithril is a distributed web search engine built from scratc by students at the 
 
 ## What is our crawler doing?
 
-If you've seen our crawler hitting your site, we're collecting web pages for academic research purposes. Our crawler:
+If you've seen our crawler hitting your site, we're collecting web pages for academic purposes. Our crawler:
 
 - Respects robots.txt directives
-- Uses exponential backoff for rate limiting
-- Identifies itself with a clear user-agent
 - Maintains a reasonable request rate per domain
+- Identifies itself with a clear user-agent
 
 We're not scraping for commercial purposes or training an LLM - just building a search engine for a class project.
 
@@ -32,7 +31,7 @@ The entire system is written in C++ with a focus on performance. Our inverted in
 
 ## Contact
 
-If you have concerns about our crawler, please contact:
+If you have concerns about our crawler or wish to have your host(s) blacklisted from being crawled, please contact:
 - mithril498@umich.edu
 
 ---
